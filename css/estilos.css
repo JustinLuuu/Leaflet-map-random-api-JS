@@ -1,0 +1,41 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    width: 100%;
+}
+
+#myMap{
+    width: 100%;
+    height: 400px;
+}
+
+.persona{
+    display: flex;
+    padding:30px;
+    padding-left: 10%;
+}
+
+.persona div:first-child{
+    display: flex;
+    flex-direction: column;
+}
+
+.persona div:first-child button{
+    display: block;
+    height: 40px;
+    margin-top: 10%;
+    border:2px solid green;
+    cursor: pointer;
+}
+
+.persona div:last-child{
+   margin-left: 5%;
+}
+
+ul li {
+    margin-top: 15px;
+}
